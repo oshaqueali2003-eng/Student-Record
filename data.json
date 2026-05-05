@@ -1,0 +1,262 @@
+{
+    "users": [
+        {
+            "username": "admin",
+            "password": "admin123"
+        }
+    ],
+    "students": [
+        {
+            "roll": "2K22-IT-01",
+            "name": "Sajjad Siyal",
+            "image": "sajjad.jpg"
+        },
+        {
+            "roll": "2K22-IT-02",
+            "name": "Oshaque Ali",
+            "image": "oaj.jpg"
+        },
+        {
+            "roll": "2K22-IT-03",
+            "name": "Leaved",
+            "image": "download.png"
+        },
+        {
+            "roll": "2K22-IT-04",
+            "name": "Leaved",
+            "image": "download.png"
+        },
+        {
+            "roll": "2K22-IT-05",
+            "name": "Usama",
+            "image": "usama.jpg"
+        },
+        {
+            "roll": "2K22-IT-06",
+            "name": "Zain Ul Abdin",
+            "image": "zain.jpg"
+        },
+        {
+            "roll": "2K22-IT-07",
+            "name": "Ambar Alam",
+            "image": "default.png"
+        },
+        {
+            "roll": "2K22-IT-08",
+            "name": "Leaved",
+            "image": "default.png"
+        },
+        {
+            "roll": "2K22-IT-09",
+            "name": "Mir Hassan",
+            "image": "mir.jpg"
+        },
+        {
+            "roll": "2K22-IT-10",
+            "name": "Tanveer Hussain",
+            "image": "tanveer.jpg"
+        },
+        {
+            "roll": "2K22-IT-11",
+            "name": "Leaved",
+            "image": "default.png"
+        },
+        {
+            "roll": "2K22-IT-12",
+            "name": "Jam Mubshar",
+            "image": "jam.jpg"
+        },
+        {
+            "roll": "2K22-IT-13",
+            "name": "Rubama Khanzada",
+            "image": "default.png"
+        },
+        {
+            "roll": "2K22-IT-14",
+            "name": "Riaz Ali",
+            "image": "download.png"
+        },
+        {
+            "roll": "2K22-IT-15",
+            "name": "Leaved",
+            "image": "download.png"
+        },
+        {
+            "roll": "2K22-IT-16",
+            "name": "Kulsoom Ali",
+            "image": "default.png"
+        },
+        {
+            "roll": "2K22-IT-17",
+            "name": "Leaved",
+            "image": "default.png"
+        },
+        {
+            "roll": "2K22-IT-18",
+            "name": "Kainat Channa",
+            "image": "default.png"
+        },
+        {
+            "roll": "2K22-IT-19",
+            "name": "Ghulam Murtaza Korejo",
+            "image": "gm.jpg"
+        },
+        {
+            "roll": "2K22-IT-21",
+            "name": "Gulshan Keerio",
+            "image": "default.png"
+        },
+        {
+            "roll": "2K22-IT-22",
+            "name": "Simra Leaved",
+            "image": "default.png"
+        },
+        {
+            "roll": "2K22-IT-23",
+            "name": "Leaved",
+            "image": "download.png"
+        },
+        {
+            "roll": "2K22-IT-24",
+            "name": "Sumair Ali",
+            "image": "sumair.jpeg"
+        },
+        {
+            "roll": "2K22-IT-25",
+            "name": "Sumair",
+            "image": "sumair2.jpeg"
+        },
+        {
+            "roll": "2K22-IT-26",
+            "name": "Muhammad Hassan",
+            "image": "hassan.jpg"
+        },
+        {
+            "roll": "2K22-IT-27",
+            "name": "Taqui Ali",
+            "image": "download.png"
+        },
+        {
+            "roll": "2K22-IT-28",
+            "name": "Pooja Oad",
+            "image": "default.png"
+        },
+        {
+            "roll": "2K22-IT-29",
+            "name": "Ramesh Kumar",
+            "image": "ramesh.jpg"
+        },
+        {
+            "roll": "2K22-IT-30",
+            "name": "Leaved",
+            "image": "download.png"
+        },
+        {
+            "roll": "2K22-IT-31",
+            "name": "Rehman Ali",
+            "image": "rehman.jpg"
+        },
+        {
+            "roll": "2K22-IT-32",
+            "name": "Mehak Ali",
+            "image": "default.png"
+        },
+        {
+            "roll": "2K22-IT-34",
+            "name": "Shagil Noor",
+            "image": "shagil.jpg"
+        },
+        {
+            "roll": "2K22-IT-35",
+            "name": "Leaved",
+            "image": "download.png"
+        },
+        {
+            "roll": "2K22-IT-36",
+            "name": "Leaved",
+            "image": "download.png"
+        },
+        {
+            "roll": "2K22-IT-37",
+            "name": "Jamshaid Ali",
+            "image": "jamshaid.jpg"
+        },
+        {
+            "roll": "2K22-IT-38",
+            "name": "Sheeraz Ali",
+            "image": "download.png"
+        },
+        {
+            "roll": "2K22-IT-39",
+            "name": "Sarfraz Ali",
+            "image": "sarfraz.jpg"
+        },
+        {
+            "roll": "2K22-IT-40",
+            "name": "Zahid Ali",
+            "image": "zahid.jpg"
+        },
+        {
+            "roll": "2K22-IT-41",
+            "name": "Leaved",
+            "image": "download.png"
+        },
+        {
+            "roll": "2K22-IT-42",
+            "name": "Orangzeb",
+            "image": "orangzeb.jpg"
+        },
+        {
+            "roll": "2K22-IT-44",
+            "name": "Aftab Ali",
+            "image": "aftab.jpg"
+        },
+        {
+            "roll": "2K22-IT-45",
+            "name": "Abdul Qayoom",
+            "image": "qayoom.jpg"
+        },
+        {
+            "roll": "2K22-IT-46",
+            "name": "Sohail Qasim Leaved",
+            "image": "download.png"
+        },
+        {
+            "roll": "2K22-IT-47",
+            "name": "Bhavesh Jeet",
+            "image": "download.png"
+        }
+    ],
+    "attendance": [
+        {
+            "roll": "2K22-IT-02",
+            "date": "2026-04-25",
+            "day": "Saturday",
+            "status": "Present"
+        },
+        {
+            "roll": "2K22-IT-01",
+            "date": "2026-04-25",
+            "day": "Saturday",
+            "status": "Present"
+        },
+        {
+            "roll": "2K22-IT-02",
+            "date": "2026-04-26",
+            "day": "Sunday",
+            "status": "Present"
+        },
+        {
+            "roll": "2K22-IT-01",
+            "date": "2026-04-26",
+            "day": "Sunday",
+            "status": "Leave"
+        },
+        {
+            "roll": "2K22-IT-39",
+            "date": "2026-04-26",
+            "day": "Sunday",
+            "status": "Present"
+        }
+    ]
+}

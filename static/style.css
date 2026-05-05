@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    min-height: 100vh;
+}
+
+/* ================= HEADER ================= */
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+/* ================= FILTER ================= */
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="date"] {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background: #00c6ff;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0072ff;
+    color: white;
+}
+
+/* ================= CONTAINER ================= */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* ================= CARD ================= */
+.card {
+    width: 270px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transition: 0.3s;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* ================= IMAGE ================= */
+.card img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 10px;
+}
+
+/* ================= NAME ================= */
+.card h3 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+/* ================= BADGES ================= */
+.stats {
+    margin: 10px 0;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 4px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.present {
+    background: #00c853;
+    color: white;
+}
+
+.absent {
+    background: #d50000;
+    color: white;
+}
+
+.leave {
+    background: #ffab00;
+    color: black;
+}
+
+.percent {
+    background: #2962ff;
+    color: white;
+}
+
+/* ================= HISTORY ================= */
+.history {
+    max-height: 120px;
+    overflow-y: auto;
+    text-align: left;
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 5px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+/* ================= HISTORY COLORS ================= */
+.Present { color: #00e676; }
+.Absent { color: #ff1744; }
+.Leave { color: #ffd600; }
+
+/* ================= BUTTON DISABLE ================= */
+button:disabled {
+    background: gray;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+/* ================= LOGIN PAGE ================= */
+.login-box {
+    width: 350px;
+    margin: 120px auto;
+    padding: 25px;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+.login-box h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.login-box button {
+    width: 95%;
+    margin-top: 10px;
+}
+
+/* ================= ERROR ================= */
+.error {
+    color: red;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 600px) {
+    .card {
+        width: 90%;
+    }
+
+    .login-box {
+        width: 90%;
+    }
+}

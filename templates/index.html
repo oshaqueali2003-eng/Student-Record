@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attendance Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="topbar">
+    <a href="/logout"><button class="logout">Logout</button></a>
+</div>
+
+<h1>Attendance System</h1>
+
+<form method="GET">
+    <input type="date" name="date" value="{{ selected_date }}">
+    <button>Filter</button>
+</form>
+
+<div class="container">
+
+{% for roll, s in stats.items() %}
+<div class="card">
+
+    <img src="/static/images/{{ s.image }}">
+
+    <h3>{{ s.name }}</h3>
+    <p>{{ roll }}</p>
+
+    <div class="stats">
+        <span class="badge present">P: {{ s.present }}</span>
+        <span class="badge absent">A: {{ s.absent }}</span>
+        <span class="badge leave">L: {{ s.leave }}</span>
+        <span class="badge percent">{{ s.percentage }}%</span>
+    </div>
+
+    {% set marked = s.history | selectattr("date","equalto",selected_date) | list %}
+
+    <form method="POST" action="/mark">
+        <input type="hidden" name="roll" value="{{ roll }}">
+        <input type="hidden" name="date" value="{{ selected_date }}">
+
+        <button name="status" value="Present" {% if marked %}disabled{% endif %}>Present</button>
+        <button name="status" value="Absent" {% if marked %}disabled{% endif %}>Absent</button>
+        <button name="status" value="Leave" {% if marked %}disabled{% endif %}>Leave</button>
+    </form>
+
+    <div class="history">
+        {% for h in s.history %}
+            <p>{{ h.date }} - <b class="{{ h.status }}">{{ h.status }}</b></p>
+        {% endfor %}
+    </div>
+
+</div>
+{% endfor %}
+
+</div>
+
+</body>
+</html>
